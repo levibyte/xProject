@@ -1,4 +1,3 @@
-
 import math
 
 class Neuron(object):
