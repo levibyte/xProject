@@ -1,13 +1,9 @@
 import math
 
 class Neuron(object):
-    test = 1
-    
     def __init__(self, bias):
         self.bias = bias
         self.weights = [] 
-        #[0.2, 0.4, 0.1]
-        #[]
 
     def calculate_output(self, inputs):
         self.inputs = inputs
