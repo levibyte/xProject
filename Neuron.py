@@ -12,7 +12,7 @@ class Neuron(object):
 
     def calculate_total_net_input(self):
         total = 0
-        print(len(self.inputs))
+        #print(len(self.inputs))
         for i in range(len(self.inputs)):
             total += self.inputs[i] * self.weights[i]
         return total + self.bias
